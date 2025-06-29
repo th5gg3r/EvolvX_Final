@@ -1,0 +1,140 @@
+# ===================================
+# Main .gitignore for EvolvX Project
+# ===================================
+
+# Backend Python Files
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/*.so
+backend/.Python
+backend/build/
+backend/develop-eggs/
+backend/dist/
+backend/downloads/
+backend/eggs/
+backend/.eggs/
+backend/lib/
+backend/lib64/
+backend/parts/
+backend/sdist/
+backend/var/
+backend/wheels/
+backend/*.egg-info/
+backend/.installed.cfg
+backend/*.egg
+backend/MANIFEST
+
+# Backend Virtual Environment
+backend/venv/
+backend/env/
+backend/ENV/
+backend/env.bak/
+backend/venv.bak/
+
+# Backend Flask Instance
+backend/instance/
+
+# Backend Database Files
+backend/*.db
+backend/*.sqlite
+backend/*.sqlite3
+
+# Backend Environment Variables 
+backend/.env
+backend/.env.local
+backend/.flaskenv
+
+# Backend Firebase Credentials
+backend/firebase-credentials.json
+backend/serviceAccountKey.json
+
+# Frontend Dependencies
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+
+# Frontend Expo
+frontend/.expo/
+frontend/.expo-shared/
+frontend/dist/
+frontend/web-build/
+frontend/expo-env.d.ts
+
+# Frontend Environment Variables
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Frontend Firebase Config 
+frontend/firebaseConfig.js
+
+# Frontend Build Files
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.metro-health-check*
+
+# Frontend Native
+frontend/*.orig.*
+frontend/*.jks
+frontend/*.p8
+frontend/*.p12
+frontend/*.key
+frontend/*.mobileprovision
+frontend/.kotlin/
+
+# TypeScript
+frontend/*.tsbuildinfo
+
+# Testing
+frontend/coverage/
+backend/.coverage
+backend/htmlcov/
+backend/.pytest_cache/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.pem
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Temporary Files
+*.tmp
+*.temp
+.temp/
+.tmp/
+
+# Optional
+# architecture/
+# implementation plan/
+# setup guide/
+# validation report/
